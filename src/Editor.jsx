@@ -42,8 +42,8 @@ function Editor() {
   const [value, setValue] = useState("");
 
   const handleChange = (content, delta, source, editor) => {
-    // console.log(editor.getHTML()); // html 사용시
-    console.log(JSON.stringify(editor.getContents())); // delta 사용시
+    console.log(editor.getHTML()); // html 사용시
+    // console.log(JSON.stringify(editor.getContents())); // delta 사용시
     setValue(editor.getHTML());
   };
 

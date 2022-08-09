@@ -24,4 +24,4 @@ yarn start (npm start)
 
 # Sample Image
 
-<img width="1472" alt="image" src="https://user-images.githubusercontent.com/65105537/183699881-5ada778e-8562-48b9-8929-cbf371363c1a.png">
+<img width="1449" alt="image" src="https://user-images.githubusercontent.com/65105537/183710807-b39b8351-6647-4d1c-9859-e2cd258865c2.png">
