@@ -48,7 +48,7 @@ function Editor() {
   };
 
   return (
-    <Cotainer>
+    <Container>
       <ReactQuill
         style={{ height: "600px" }}
         theme="snow"
@@ -57,11 +57,11 @@ function Editor() {
         value={value}
         onChange={handleChange}
       />
-    </Cotainer>
+    </Container>
   );
 }
 
-const Cotainer = styled.div`
+const Container = styled.div`
   height: 650px;
 `;
 
