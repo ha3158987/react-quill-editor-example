@@ -7,6 +7,14 @@ jobs:
   build:
     runs-on: ubuntu-latest
     steps:
+      - uses: actions/checkout@v3
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Build app
+        run: npm run build # 업로드 할 빌드 파일 생성
+
       - uses: actions/upload-artifact@v3 # 빌드 결과물을 업로드하고 다운가능한 상태로 보여주는 액션
         with:
           name: built-artifact
