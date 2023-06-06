@@ -42,4 +42,4 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: Upload CSS, JS, Assets to S3 # S3에 static 파일 업로드
-        run: aws s3 sync ./out s3://react-quill-editor-example
+        run: aws s3 sync ./ s3://react-quill-editor-example
