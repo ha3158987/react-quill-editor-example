@@ -37,3 +37,4 @@ jobs:
           aws-secret-access-key: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           role-to-assume: arn:aws:iam::635275223949:user/hyuna-github-workflow
           aws-region: ap-northeast-2
+          role-duration-seconds: 1200
