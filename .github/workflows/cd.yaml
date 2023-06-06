@@ -30,10 +30,10 @@ jobs:
 
       - name: Find build dir
         run: ls -al
-
+             
       - name: PWD
         run: pwd
-
+      
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2 # AWS credential을 github action과 연동
         with:
