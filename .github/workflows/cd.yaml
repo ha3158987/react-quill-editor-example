@@ -28,6 +28,12 @@ jobs:
         with:
           name: built-artifact
 
+      - name: Find build dir
+        run: ls -al
+
+      - name: PWD
+        run: pwd
+
       - name: Configure AWS credentials
         uses: aws-actions/configure-aws-credentials@v2 # AWS credential을 github action과 연동
         with:
@@ -36,4 +42,4 @@ jobs:
           aws-region: ap-northeast-2
 
       - name: Upload CSS, JS, Assets to S3 # S3에 static 파일 업로드
-        run: aws s3 sync ./build s3://react-quill-editor-example
+        run: aws s3 sync ./ s3://react-quill-editor-example
