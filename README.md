@@ -4,7 +4,7 @@
 
 # Sample Page
 
-- http://react-quill-editor-example.s3-website.ap-northeast-2.amazonaws.com/
+### [Click me!](http://react-quill-editor-example.s3-website.ap-northeast-2.amazonaws.com/)
 
 # Getting started
 
